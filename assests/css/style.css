@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-color: rgb(134, 142, 218);
+    background: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/2983523/910/470/m2/fpnw/wm1/gaqvvnmrvecphjdbjce3o3kslwvjqmpnzbhecwwy2unizjxjdmnmywwpmd6twc1k-.jpg?1500287346&s=44bab291df605546fc45225b235a4e45") no-repeat right top;
+  }
+  
+  p {color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  header {
+    background: rgb(0, 0, 0);
+    align-content: center;
+  }
+  
+  h1 {
+    padding: 28px;
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: rgb(137, 186, 226);
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  }
+  
+  a {
+    color: b=lightblue;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+    align-content: center;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+    align-content: center;
+  }
+
+  .header-image {
+    
+   
+  }
+  
+  .bio-image {
+    width: 300px;
+    height: 200px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+ }
+  
+  .violet {
+    color: rgb(216, 192, 253);
+    font-weight: bold;
+     
+  }
+
+  .darkblue {color:darkblue
+
+  }
