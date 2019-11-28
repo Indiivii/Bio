@@ -55,7 +55,10 @@ body {
     line-height: 150%;
     color: #333;
     background-color: rgb(134, 142, 218);
-    background: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/2983523/910/470/m2/fpnw/wm1/gaqvvnmrvecphjdbjce3o3kslwvjqmpnzbhecwwy2unizjxjdmnmywwpmd6twc1k-.jpg?1500287346&s=44bab291df605546fc45225b235a4e45") no-repeat right top;
+    background: url("https://images2.alphacoders.com/698/698137.jpg") no-repeat;
+    background-size:     cover;                      /* <------ */
+    background-repeat: repeat-y;
+    background-position: center center;
   }
   
   p {color:white;
@@ -64,23 +67,29 @@ body {
 
 
   header {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.678);
     align-content: center;
   }
   
   h1 {
-    padding: 28px;
-    margin: 0;
-    margin-bottom: 0px;
-    font-size: 50px;
+    padding: 10px;
+    margin right: 10;
+    margin-bottom: -10px;
+    font-size: 25px;
     color: rgb(137, 186, 226);
-    text-align: center;
+    text-align: left;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
   }
   
   h2 {
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  h3 {
+font-size: 30px;
+color: whitesmoke
+
   }
 
   }
@@ -110,26 +119,74 @@ body {
     align-content: center;
   }
 
-  .header-image {
-    
-   
-  }
-  
-  .bio-image {
-    width: 300px;
-    height: 200px
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
- }
+ 
+ 
   
   .violet {
     color: rgb(216, 192, 253);
-    font-weight: bold;
+    background: rgba(0, 0, 0, 0.733); 
+    font-size: 10vmin;
+    padding: 28px;
+    margin right: 30;
+    margin-top: -10px;
+    margin-bottom: 10vh;
+    text-align: center;
+  
      
   }
 
-  .darkblue {color:darkblue
+  .darkblue {color:rgb(77, 77, 85)
 
   }
+
+  .about-me-title {
+    background: rgb(0, 0, 0);
+    height: 50px;
+    width: 140px;
+  border: 15px solid rgb(49, 49, 53);
+  padding: 50px; 
+  margin: -40px 0px;
+ 
+  }
+  .about-me {
+    background: rgb(0, 0, 0);
+    width: 600px;
+  border: 15px solid rgb(49, 49, 53);
+  padding: 50px;
+  margin: -50px 0px;
+  }
+
+  .about-me-2 {
+    background: rgb(0, 0, 0);
+    width: 515px;
+  border: 15px solid rgb(49, 49, 53);
+  padding: 50px;
+  margin: -500px 0px 80px 800px;
+  }
+
+  .about-me-3 {
+    background: rgb(0, 0, 0);
+    width: 515px;
+  border: 15px solid rgb(49, 49, 53);
+  padding: 50px;
+  margin: ;
+  }
+
+  .coding-image {
+    style="text-align: right"
+  }
+
+
+.imageborder {
+      border-style: solid;
+  border-color:  rgb(49, 49, 53);
+  border-width: 20px;
+   }
+
+   .imageborder-2 {
+    border-style: solid;
+border-color:  rgb(49, 49, 53);
+border-width: 20px;
+margin: 40px 0px 0px 300px
+
+ }
