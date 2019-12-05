@@ -73,7 +73,7 @@ body {
   
   h1 {
     padding: 10px;
-    margin right: 10;
+    margin-right: 10px;
     margin-bottom: -10px;
     font-size: 25px;
     color: rgb(137, 186, 226);
@@ -91,15 +91,13 @@ font-size: 30px;
 color: whitesmoke
 
   }
-
-  }
   
   a {
     color: b=lightblue;
   }
   
   .container {
-    width: 1024px;
+    width: 1519px;
     margin: 0 auto;
   }
   
@@ -127,7 +125,7 @@ color: whitesmoke
     background: rgba(0, 0, 0, 0.733); 
     font-size: 10vmin;
     padding: 28px;
-    margin right: 30;
+    margin-right: 30;
     margin-top: -10px;
     margin-bottom: 10vh;
     text-align: center;
@@ -169,11 +167,11 @@ color: whitesmoke
     width: 515px;
   border: 15px solid rgb(49, 49, 53);
   padding: 50px;
-  margin: ;
+  /* margin: ; */
   }
 
   .coding-image {
-    style="text-align: right"
+    text-align: right"
   }
 
 
@@ -190,3 +188,40 @@ border-width: 20px;
 margin: 40px 0px 0px 300px
 
  }
+
+ .page-links {
+   font-size: large;
+ /* font */
+ }
+
+ /* selected link */
+a:active {
+  color: #0000FF;
+ align-self: center;
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid rgb(191, 106, 224); /* Green border */
+  color: rgb(106, 191, 240); /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #7557bb;
+}
+
