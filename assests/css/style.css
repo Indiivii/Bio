@@ -56,8 +56,8 @@ body {
     color: #333;
     background-color: rgb(134, 142, 218);
     background: url("https://images2.alphacoders.com/698/698137.jpg") no-repeat;
-    background-size:     cover;                      /* <------ */
-    background-repeat: repeat-y;
+    background-size: 1519px 2500px;                    
+   
     background-position: center center;
   }
   
@@ -118,7 +118,23 @@ color: whitesmoke
   }
 
  
- 
+  .column1 {
+    width: 50%;
+    margin: 0% 0%;
+  }
+
+  .column2 {
+    width: 50%;
+    margin: -20% 39% 0%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
   
   .violet {
     color: rgb(216, 192, 253);
@@ -139,35 +155,39 @@ color: whitesmoke
 
   .about-me-title {
     background: rgb(0, 0, 0);
-    height: 50px;
-    width: 140px;
-  border: 15px solid rgb(49, 49, 53);
-  padding: 50px; 
-  margin: -40px 0px;
+    height: 70px;
+    width: 175px;
+  border: 12px solid rgb(49, 49, 53);
+  padding: 10px 5px 10px 10px; 
+  margin: 0px 315px;
  
   }
   .about-me {
     background: rgb(0, 0, 0);
     width: 600px;
-  border: 15px solid rgb(49, 49, 53);
+  border: 12px solid rgb(49, 49, 53);
   padding: 50px;
-  margin: -50px 0px;
+  margin: -8px 90px;
   }
 
   .about-me-2 {
     background: rgb(0, 0, 0);
     width: 515px;
-  border: 15px solid rgb(49, 49, 53);
+  border: 12px solid rgb(49, 49, 53);
   padding: 50px;
-  margin: -500px 0px 80px 800px;
+  margin: -320px 150px 0px;
   }
 
   .about-me-3 {
     background: rgb(0, 0, 0);
     width: 515px;
-  border: 15px solid rgb(49, 49, 53);
+  border: 12px solid rgb(49, 49, 53);
   padding: 50px;
-  /* margin: ; */
+ margin: -11% 30% -10%; 
+  }
+
+  .biophoto {
+    margin: 0% 33%;
   }
 
   .coding-image {
@@ -178,15 +198,20 @@ color: whitesmoke
 .imageborder {
       border-style: solid;
   border-color:  rgb(49, 49, 53);
-  border-width: 20px;
+  border-width: 12px;
+  margin: -90% 12% 40%;
    }
 
-   .imageborder-2 {
+   .image-2 {
     border-style: solid;
 border-color:  rgb(49, 49, 53);
-border-width: 20px;
-margin: 40px 0px 0px 300px
+border-width: 12px;
+margin: 0% 40% 10% 38%;
 
+ }
+
+ .image-3 {
+  margin: 0% 30%;
  }
 
  .page-links {
@@ -256,7 +281,7 @@ a:active {
 
 .email {
   border: 1px solid black;
- margin: 0px 185px;
+ margin: 0px 157px;
  background: rgba(101, 165, 190, 0.877) ;
   width: 40%;
   padding: 20px 20px 20px 20px;
@@ -266,16 +291,22 @@ a:active {
 
 .gittitle {
   border: 1px solid black;
-  margin: 0px 185px;
+  margin: 0px 95px;
   background: rgba(101, 165, 190, 0.877) ;
-   width: 12%;
+   width: 45%;
    padding: 20px 20px 20px 20px;
    font-size: 50px;
    color: white;
 }
 
-.emailsection {
-  margin: 0px 30px;
+.linkedin {
+  border: 1px solid black;
+  margin: 0px 65px;
+  background: rgba(101, 165, 190, 0.877) ;
+   width: 58%;
+   padding: 20px 20px 20px 20px;
+   font-size: 50px;
+   color: white;
 }
 
 /* Style inputs, select elements and textareas */
@@ -366,6 +397,23 @@ input[type=submit] {
 .githubcontainer .gitbtn:hover {
   background-color: black;
   color: white;
+}
+
+.under-construction {
+  font-size: 60px;
+  margin: 8%;
+  background: rgba(0, 0, 0, 0.733);
+  border: 3px solid black;
+  color: rgb(253, 215, 250);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
